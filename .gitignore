@@ -1,0 +1,78 @@
+# frontend
+# dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+frontend/.yarn/install-state.gz
+
+# vercel
+frontend/.vercel
+
+# testing
+frontend/coverage
+
+# next.js
+frontend/.next/
+frontend/out/
+
+# production
+frontend/build
+
+# misc
+frontend/.DS_Store
+frontend/*.pem
+
+# debug
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# local env files
+frontend/.env*.local
+
+# typescript
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# backend
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+db.sqlite3
+*.sqlite3
+
+# Django
+*.log
+.local
+.db.sqlite3
+media
+
+# Virtualenv
+backend/venv/
+backend/ENV/
+backend/env/
+backend/.venv/
+
+# IDEs and editors
+.idea/
+*.swp
+*~.nib
+local.properties
+.classpath
+.project
+.settings/
+*.sublime-workspace
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# misc
+*.sql
+*.sqlite
