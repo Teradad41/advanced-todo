@@ -28,7 +28,7 @@ INSTALLED_APPS = [
 
     # My applications
     'api.apps.ApiConfig',
-    'todo.apps.TodoConfig',
+    'event.apps.EventConfig',
 ]
 
 MIDDLEWARE = [
